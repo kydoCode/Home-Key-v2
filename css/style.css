@@ -1,0 +1,119 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: var(--font);    
+}
+
+:root {
+    --black:#000;
+    --red:#f60303;
+    --white:#fff;
+    --grey:#c1c1c1;
+    --lightgrey:#f1f1f1;
+    --font:"Open Sans", sans-serif;
+}
+
+.container-width-1440 {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+h1, h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color:var(--black);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color:var(--black);
+}
+
+a:hover {
+    transition:all 0.2s ease-in-out;
+    color: var(--red);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Header */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav {
+    padding: 0 0 28px 0;
+}
+header > nav > ul {
+    gap: 50px;
+}
+
+header > nav > ul> li {
+    padding: 51px 15px 0 15px;
+    /* border-top: ; */
+}
+
+header nav ul li a {
+    border-top: solid 1px transparent;
+}
+
+header nav ul li a:hover {
+    border-top: solid 1px var(--red);
+    padding: 50px;
+}
+
+/* Main */
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+}
+
+footer div {
+    display: flex;
+    flex: 1;
+}
+
+footer > div > ul {
+    /* display: flex; */
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;    
+}
+
+footer > p {
+    margin: auto;
+    padding: 15px;
+}
+
+/* broder radius */
+
