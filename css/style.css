@@ -96,11 +96,14 @@ footer {
     display: flex;
     flex-direction: column;
     /* margin: auto; */
+    background-color: var(--lightgrey);
+    border-radius: 12px 12px 0px 0px;
 }
 
 footer div {
     display: flex;
     flex: 1;
+    padding: 40px;
 }
 
 footer > div > ul {
@@ -113,6 +116,11 @@ footer > div > ul {
 footer > p {
     margin: auto;
     padding: 15px;
+}
+
+footer div ul h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 /* broder radius */
