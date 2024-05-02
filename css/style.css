@@ -90,6 +90,110 @@ header nav ul li a:hover {
 
 /* Main */
 
+/* Section 1 */
+
+#nav-tools form {
+    display: flex;
+} 
+#nav-tools form i{
+    /* background-color: var(--red);
+    color:var(--white);
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 7px 0px 0px 7px;
+    max-width: 28px;
+    max-height: 34px; */
+    color:var(--white);
+    background-color: var(--red);
+    /* max-height: 34px;
+    max-width: ; */
+    padding: 8px 16px 8px 16px;
+    border-radius: 7px 0 0 7px;
+    /* width:12.34px; */
+}
+
+#gsearch {
+    padding: 6px 15px 6px 15px;
+}
+
+button[type=submit]{
+    background-color: var(--red);
+    color:var(--white);
+    border-radius: 0 7px 7px 0;
+    padding: 8px 16px 8px 16px;
+    border: transparent/* solid 1px var(--white)*/;
+}
+
+/* .filter{
+    border-radius: 12px;
+    border: solid 1px var(--red);
+    align-items: center;
+} */
+
+ #nav-tools h2 p i {
+    color:var(--red);
+}
+
+.filter-btn {
+    border-radius: 12px;
+    border: solid 1px var(--red);
+    justify-content: center;
+    color: var(--black);
+    padding: 12px;
+    max-width: 100%;
+    width: fit-content;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+    color: var(--white);
+    background-color: var(--red);
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn > i {
+    color: var(--red);
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover > i {
+    color:var(--white);
+    transition: all 0.2s ease-in-out;
+}
+
+#nav-tools article{
+    /* display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 75px;
+    flex-wrap: nowrap; */
+    display: flex;
+    align-items: center;
+    gap: 24px;
+} 
+
+#nav-tools {
+    /* justify-content: space-between; */
+    /* gap: 20px */
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 348px;
+}
+
+#nav-tools > p:nth-child(5) i{
+    /* color:green;
+    font-size: 25px; */
+    color: var(--red);
+}
+
+/* #nav-tools > p:nth-child(2), #nav-tools > form, #nav-tools > article, #nav-tools > p:nth-child(5) {
+    margin-bottom: 35px;
+} */
+
+
+
 /* Footer */
 
 footer {
@@ -124,4 +228,3 @@ footer div ul h2 {
 }
 
 /* broder radius */
-
