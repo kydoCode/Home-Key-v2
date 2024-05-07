@@ -77,15 +77,10 @@ header > nav {
 }
 header > nav > ul {
     gap: 50px;
-    /* border-top: solid 1px var(--red); */
-    /* padding:0 55px 0 55px; */
-    /* padding: 0 15px 0 15px; */
 }
 
 header > nav > ul> li {
     padding: 51px 15px 0 15px;
-    /* border-top: ; */
-
 }
 
 header nav ul li a {
@@ -108,7 +103,6 @@ header img {
 
 #nav-tools form {
     display: flex;
-    /* margin: 40px; */
 } 
 #nav-tools form i{
     color:var(--white);
@@ -127,10 +121,6 @@ header img {
     border-left-style: hidden;
 
 }
-
-/* #gsearch.border-left, #gsearch.border-right {
-    border:transparent;
-}; */
 
 button[type=submit]{
     background-color: var(--red);
@@ -204,7 +194,6 @@ button[type=submit]{
     flex:2;
     padding: 40px;
     background-color: var(--lightgrey);
-    /* gap: 40px; */
     border-radius: 12px;
 }
 
@@ -212,13 +201,11 @@ button[type=submit]{
 #accomodations-list{
     display: flex;
     gap: 20px;
-    /* flex: 1 0 30%; */
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 #accomodations-list a{
-    /* display: flex; */
     flex: 1 0 30%;
 }
 
@@ -240,15 +227,9 @@ button[type=submit]{
     border-radius: 12px 12px 0 0;
 }
 
-/* main #all-accomodations #accomodations #accomodations-list a {
-    display: flex;
-    flex: 1 0 30%;
-} */
-
 .info-zone {
     padding: 0 12px;
     gap: 4px;
-    /* justify-content: space-between; */
 }
 
 #accomodations h2, #top-accomodations h2 {
@@ -261,9 +242,7 @@ button[type=submit]{
     flex: 1;
     padding: 40px;
     background-color: var(--lightgrey);
-    /* gap: 40px; */
     border-radius: 12px;
-    /* gap: 40px; */
 }
 
 #top-accomodations a article img{
@@ -273,17 +252,12 @@ button[type=submit]{
     border-radius: 12px 0 0 12px;
 }
 
-/* #liked-destinations {
-    gap: 40px;
-} */
-
 #liked-destinations a article {
     gap: 24px;
 }
 
 #liked-destinations a {
-    /* gap: 40px; */
-    /* justify-content: space-between; */
+/* */
 }
 
 .popular {
@@ -292,7 +266,6 @@ button[type=submit]{
     border-radius: 12px;
     border: solid 6px var(--white);
     display: flex;
-    /* flex-direction: column; */
 }
 
 #load {
@@ -307,25 +280,17 @@ button[type=submit]{
     color: var(--red);
 }
 
-/* .popular.info-zone {
-    /* Espace entre elements */
-  /*  gap: 40px;
-} */
-
-
 /* Surrounding activities */
 
 #surrounding-activities {
     padding: 0 15px;
     gap: 40px;
-    /* flex-wrap: wrap; */
     margin: 40px 0 40px 0;
 }
 
 #surrounding-activities #area-activities a{
     display: flex;
     flex: 1 0 20%;
-    /* flex-wrap: wrap; */
     background-color: var(--white);
     border-radius: 0 0 12px 12px;
 }
@@ -338,16 +303,13 @@ button[type=submit]{
 
 #surrounding-activities a>article {
     background-color: var(--white);
-    /* background-color: var(--red); */
     border-radius: 12px;
-    /* margin: 16px auto; */
     padding-bottom: 12px;
 }
 
 #area-activities a>article>h3 {
     text-align: center;
     padding: 17px 0 12px 0;
-    /* border: solid 0.1px var(--lightgrey); */
 }
 
 
@@ -361,19 +323,12 @@ button[type=submit]{
 
 #surrounding-activities #area-activities a article h3{
     justify-content: center;
-    /* align-items: center; */
-    /* margin: auto; */
-    /* padding: 0 80px; */
-    /* align-content: center; */
 }
 
 #area-activities {
     display: flex;
-    /* flex: 1 0 25%; */
     margin: 40px auto;
     gap: 40px;
-    /* width: 100%; */
-    /* height: 360px; */
 }
 
 
@@ -382,7 +337,6 @@ button[type=submit]{
 footer {
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
     background-color: var(--lightgrey);
     border-radius: 12px 12px 0px 0px;
 }
