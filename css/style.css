@@ -218,6 +218,8 @@ button[type=submit]{
 
 #accomodations-list a article:hover img, #top-accomodations a article:hover img{
     filter: grayscale(80%);
+    transform: scale(1.02);
+    overflow: hidden;
 }
 
 #accomodations-list a article img{
@@ -253,11 +255,16 @@ button[type=submit]{
 }
 
 #liked-destinations a article {
+    /* flex-direction: column; */
     gap: 24px;
+    /* justify-content: space-between; */
 }
 
 #liked-destinations a {
 /* */
+flex-direction: column;
+/* gap: 24px; */
+
 }
 
 .popular {
@@ -297,7 +304,7 @@ button[type=submit]{
 
 #surrounding-activities a:hover img{
     filter: grayscale(80%);
-    transform: scale(1.1);
+    transform: scale(1.02);
     overflow: hidden;
 }
 
@@ -361,4 +368,10 @@ footer > p {
 footer div ul h2 {
     font-weight: 700;
     padding-bottom: 20px;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 768px) {
+    
 }
