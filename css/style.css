@@ -212,6 +212,7 @@ button[type=submit]{
 
 #accomodations-list a{
     flex: 1 0 30%;
+    position: relative;
 }
 
 #accomodations-list a article{
@@ -227,6 +228,17 @@ button[type=submit]{
     overflow: hidden;
 }
 
+/* #accomodations-list a article:hover>.btn-reco, #top-accomodations a article:hover>.btn-reco {
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 5px 8px 127px 141.62px;
+} */
+
 #accomodations-list a article img{
     object-fit: cover; 
     width: 100%;
@@ -241,6 +253,23 @@ button[type=submit]{
 
 #accomodations h2, #top-accomodations h2 {
     margin-bottom: 40px;
+}
+
+.btn-reco {
+    /* position: absolute;
+    background-color: var(--red);
+    color: var(--white); */
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 4px;
+    /* width: 101.92px; */
+    /* height: 28px; */
+    font-size: 13px;
+    font-weight: 400;
+    margin: 5px 8px 127px 141.62px;
+    z-index: 1;
 }
 
 /* Aside */
@@ -289,14 +318,30 @@ button[type=submit]{
 /* justify-content: space-between; */
 /* gap: 24px; */
 /* gap: 40px; */
+    position: relative;
 }
 
-.popular {
+.aside-popular {
     box-shadow: 0px 2px 15px 0px rgba(193, 193, 193, 1);
     background-color: var(--white);
     border-radius: 12px;
     border: solid 6px var(--white);
     display: flex;
+    position: relative;
+}
+
+.popular {
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 4px;
+    /* width: 101.92px; */
+    /* height: 28px; */
+    font-size: 13px;
+    font-weight: 400;
+    margin: 9px 12px;
+    z-index: 1;
 }
 
 #load {
