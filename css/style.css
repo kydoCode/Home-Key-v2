@@ -20,7 +20,6 @@
 .container-width-1440 {
     max-width: 1440px;
     margin: auto;
-    /* padding: 0 15px; */
 }
 
 h1, h2 {
@@ -228,17 +227,6 @@ button[type=submit]{
     overflow: hidden;
 }
 
-/* #accomodations-list a article:hover>.btn-reco, #top-accomodations a article:hover>.btn-reco {
-    position: absolute;
-    background-color: var(--red);
-    color: var(--white);
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 13px;
-    font-weight: 400;
-    margin: 5px 8px 127px 141.62px;
-} */
-
 #accomodations-list a article img{
     object-fit: cover; 
     width: 100%;
@@ -256,16 +244,11 @@ button[type=submit]{
 }
 
 .btn-reco {
-    /* position: absolute;
-    background-color: var(--red);
-    color: var(--white); */
     position: absolute;
     background-color: var(--red);
     color: var(--white);
     padding: 5px;
     border-radius: 4px;
-    /* width: 101.92px; */
-    /* height: 28px; */
     font-size: 13px;
     font-weight: 400;
     margin: 5px 8px 127px 141.62px;
@@ -274,12 +257,8 @@ button[type=submit]{
 
 /* Aside */
 
-#liked-destinations .info-zone {
-    /* gap: 20px; */
-    /* justify-content: space-between;
-    padding: 8px 8px 0 8px; */  
+#liked-destinations .info-zone { 
     justify-content: space-between;
-    /* padding: 8px; */
     display: flex;
     flex-direction: column;
 }
@@ -305,19 +284,10 @@ button[type=submit]{
 }
 
 #liked-destinations a article {
-    /* flex-direction: column; */
     gap: 24px;
-    /* justify-content: space-between; */
 }
 
 #liked-destinations a {
-    /* display: flex;
-    flex-direction: column; */
-/* */
-/* flex-direction: column; */
-/* justify-content: space-between; */
-/* gap: 24px; */
-/* gap: 40px; */
     position: relative;
 }
 
@@ -336,8 +306,6 @@ button[type=submit]{
     color: var(--white);
     padding: 5px;
     border-radius: 4px;
-    /* width: 101.92px; */
-    /* height: 28px; */
     font-size: 13px;
     font-weight: 400;
     margin: 9px 12px;
@@ -431,7 +399,6 @@ footer > div > ul {
 }
 
 footer > p {
-    /* margin: auto; */
     padding: 15px;
     background-color: var(--white);
     text-align: center;
