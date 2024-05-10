@@ -20,7 +20,7 @@
 .container-width-1440 {
     max-width: 1440px;
     margin: auto;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 h1, h2 {
@@ -63,6 +63,11 @@ ul{
 .fa-solid, .fas {
     font-weight: 900;
     color: var(--red);
+}
+
+.lightgrey {
+    font-weight: 900;
+    color: var(--lightgrey);
 }
 
 /* Header */ 
@@ -240,6 +245,16 @@ button[type=submit]{
 
 /* Aside */
 
+#liked-destinations .info-zone {
+    /* gap: 20px; */
+    /* justify-content: space-between;
+    padding: 8px 8px 0 8px; */  
+    justify-content: space-between;
+    /* padding: 8px; */
+    display: flex;
+    flex-direction: column;
+}
+
 #top-accomodations {
     flex: 1;
     padding: 40px;
@@ -254,6 +269,12 @@ button[type=submit]{
     border-radius: 12px 0 0 12px;
 }
 
+#liked-destinations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 #liked-destinations a article {
     /* flex-direction: column; */
     gap: 24px;
@@ -261,10 +282,13 @@ button[type=submit]{
 }
 
 #liked-destinations a {
+    /* display: flex;
+    flex-direction: column; */
 /* */
-flex-direction: column;
+/* flex-direction: column; */
+/* justify-content: space-between; */
 /* gap: 24px; */
-
+/* gap: 40px; */
 }
 
 .popular {
@@ -299,7 +323,8 @@ flex-direction: column;
     display: flex;
     flex: 1 0 20%;
     background-color: var(--white);
-    border-radius: 0 0 12px 12px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 100px 0px rgba(0, 0, 0, 0.25);
 }
 
 #surrounding-activities a:hover img{
@@ -325,7 +350,6 @@ flex-direction: column;
     height: 380px;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
-    box-shadow: 0px 5px 100px 0px rgba(0, 0, 0, 0.25);
 }
 
 #surrounding-activities #area-activities a article h3{
@@ -361,8 +385,10 @@ footer > div > ul {
 }
 
 footer > p {
-    margin: auto;
+    /* margin: auto; */
     padding: 15px;
+    background-color: var(--white);
+    text-align: center;
 }
 
 footer div ul h2 {
