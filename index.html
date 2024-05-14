@@ -12,7 +12,7 @@
         <a href="/"><img src="/img/logo.png" alt="Logo" width="180"></a>
         <nav>
             <ul>
-                <li><a href="#accomodations">Accomodations</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
                 <li><a href="#surrounding-activities">Activities</a></li>
             </ul>
         </nav>
@@ -20,13 +20,14 @@
     <main class="container-width-1440">
         <section id="nav-tools">
             <div>
-                <h1>Find dream accomodation for your vacations</h1>
+                <h1>Find dream accommodation for your vacations</h1>
                 <p>Sea, nature, city.</p>
             </div>
             <form action="#">
                 <i class="fa-solid fa-location-dot"></i>
                 <input type="search" id="gsearch" name="gsearch" placeholder="Madrid, Spain">
-                <button type="submit">Search</button>
+                <button type="submit" id="text-search">Search</button>
+                <button type="submit" id="icon-search"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <article>
                 <h2>Filters</h2>
@@ -35,16 +36,16 @@
                 <p class="filter-btn"><i class="fa-solid fa-mountain-sun"></i> Mountain</p>
                 <p class="filter-btn"><i class="fa-solid fa-city"></i> City</p>
             </article>
-            <p><i class="fa-solid fa-circle-info"></i> More than 500 accomodations in this city</p>
+            <p><i class="fa-solid fa-circle-info"></i> More than 500 accommodations in this city</p>
         </section>
         <section id="all-accommodations">
-            <div id="accomodations">
-                <h2>Accomodations in Madrid</h2>
-                <div id="accomodations-list">
+            <div id="accommodations">
+                <h2>Accommodations in Madrid</h2>
+                <div id="accommodations-list">
                     <a href="#">
                         <article class="recommended">
                             <p class="btn-reco">Recommended</p>
-                            <img src="/img/accomodation/Retiro-Park.jpg" alt="Retiro-Park">
+                            <img src="/img/accommodation/Retiro-Park.jpg" alt="Retiro-Park">
                             <div class="info-zone">
                                 <h3>Retiro Park</h3>
                                 <p>Stay from $40/night</p>
@@ -61,7 +62,7 @@
                     <a href="#">
                         <article class="recommended">
                             <p class="btn-reco">Recommended</p>
-                            <img src="/img/accomodation/Royal-Palace-of-Madrid.jpg" alt="Royal-Palace-of-Madrid">
+                            <img src="/img/accommodation/Royal-Palace-of-Madrid.jpg" alt="Royal-Palace-of-Madrid">
                             <div class="info-zone">
                                 <h3>Royal Palace of Madrid</h3>
                                 <p>Stay from $46/night</p>
@@ -77,7 +78,7 @@
                     </a>
                     <a href="#">
                         <article>
-                            <img src="/img/accomodation/Puerta-del-Sol.jpg" alt="Puerta-del-Sol">
+                            <img src="/img/accommodation/Puerta-del-Sol.jpg" alt="Puerta-del-Sol">
                             <div class="info-zone">
                                 <h3>Puerta del Sol</h3>
                                 <p>Stay from $52/night</p>
@@ -93,7 +94,7 @@
                     </a>
                     <a href="#">
                         <article>
-                            <img src="/img/accomodation/Plaza-Mayor.jpg" alt="Plaza-Mayor">
+                            <img src="/img/accommodation/Plaza-Mayor.jpg" alt="Plaza-Mayor">
                             <div class="info-zone">
                                 <h3>Plaza Mayor</h3>
                                 <p>Stay from $55/night</p>
@@ -110,7 +111,7 @@
                     <a href="#">
                         <article class="recommended">
                             <p class="btn-reco">Recommended</p>
-                            <img src="/img/accomodation/Prado-Museum.jpg" alt="Prado-Museum">
+                            <img src="/img/accommodation/Prado-Museum.jpg" alt="Prado-Museum">
                             <div class="info-zone">
                                 <h3>Prado Museum</h3>
                                 <p>Stay from $61/night</p>
@@ -126,7 +127,7 @@
                     </a>
                     <a href="#">
                     <article>
-                            <img src="/img/accomodation/Gran-Vía.jpg" alt="Gran-Vía">
+                            <img src="/img/accommodation/Gran-Vía.jpg" alt="Gran-Vía">
                             <div class="info-zone">
                                 <h3>Gran Vía</h3>
                                 <p>Stay from $68/night</p>
@@ -143,13 +144,13 @@
                 </div>
                 <a href="#" id="load">Load more</a>
             </div>
-            <aside id="top-accomodations">
-                <h2>Most popular accomodations</h2>
+            <aside id="top-accommodations">
+                <h2>Most popular accommodations</h2>
                 <div id="liked-destinations">
                     <a href="#">
                         <article class="aside-popular">
                             <p class="popular">Popular</p>
-                            <img src="/img/accomodation/Retiro-Park.jpg" alt="Retiro-Park">
+                            <img src="/img/accommodation/Retiro-Park.jpg" alt="Retiro-Park">
                             <div class="info-zone">
                                 <h3>Retiro Park</h3>
                                 <p>Stay from $40/night</p>
@@ -166,7 +167,7 @@
                     <a href="#">
                         <article class="aside-popular">
                                 <p class="popular">Popular</p>
-                                <img src="/img/accomodation/Gran-Vía.jpg" alt="Gran-Vía">
+                                <img src="/img/accommodation/Gran-Vía.jpg" alt="Gran-Vía">
                                 <div class="info-zone">
                                     <h3>Gran Vía</h3>
                                     <p>Stay from $68/night</p>
@@ -183,7 +184,7 @@
                     <a href="#">
                         <article class="aside-popular">
                             <p class="popular">Popular</p>
-                            <img src="/img/accomodation/Puerta-del-Sol.jpg" alt="Puerta-del-Sol">
+                            <img src="/img/accommodation/Puerta-del-Sol.jpg" alt="Puerta-del-Sol">
                             <div class="info-zone">
                                 <h3>Puerta del Sol</h3>
                                 <p>Stay from $52/night</p>
@@ -239,7 +240,7 @@
                 <li><a href="#">Data and privacy</a></li>
             </ul>
             <ul>
-                <h2>Accomodations</h2>
+                <h2>Accommodations</h2>
                 <li><a href="#">Quality charter</a></li>
                 <li><a href="#">Offer your accommodation</a></li>
             </ul>
