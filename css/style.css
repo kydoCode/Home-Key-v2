@@ -188,6 +188,7 @@ button[type=submit]{
     display: flex;
     align-items: center;
     gap: 24px;
+    flex-wrap: wrap;
 } 
 
 #nav-tools {
@@ -494,4 +495,10 @@ footer div ul h2 {
     #accommodations-list a {
         flex: 1 0 100%;
     }  
+
+    footer div {
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 1 0 100%;
+}
 }
