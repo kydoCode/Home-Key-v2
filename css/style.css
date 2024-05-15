@@ -438,9 +438,28 @@ footer div ul h2 {
         text-align: center;
     }
 
+    header nav {
+        /* flex: 1 0 33%; */
+    }
     header nav ul {
         justify-content: center;
+        gap: 0px;
     }
+
+    header nav ul li a:hover {
+        border-bottom: solid 1px var(--red);
+        border-top: none;
+        /* padding: 0px 60px 8px 60px; */
+        padding-bottom: 8px;
+    }
+
+    header nav ul li a {
+        /* padding: 0px 60px 8px 60px; */
+        border-top: none;
+        border-bottom: none;
+        padding-bottom: 8px;
+    }
+    
 
     #icon-search {
         display: inline;
@@ -465,5 +484,13 @@ footer div ul h2 {
         flex-wrap: wrap;
         flex-direction: column;
         flex: 1 0 100%;
+}
+
+#nav-tools {
+    /* gap: 20px; */
+}
+
+button[type=submit] {
+    padding: 8px 8px 8px 8px;
 }
 }
